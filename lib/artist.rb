@@ -15,6 +15,7 @@ class Artist
   def songs
     Song.map do |song|
       Song.artist == self
+    end
   end
 
   def add_song(song)
