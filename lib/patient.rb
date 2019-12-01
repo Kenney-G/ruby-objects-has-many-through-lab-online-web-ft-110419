@@ -17,7 +17,7 @@ class Patient
   
   def appointments                    
     self.appointments.select do |appointment|
-    song.artist
+    self ==  appointment
   end
   
   end
