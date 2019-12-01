@@ -8,4 +8,9 @@ class Appointment
     self.genre = genre
     genre.add_song(self)
   end
+  
+  def self.all
+    @@all
+  end
+  
 end
