@@ -7,13 +7,9 @@ class Artist
     @name = name
   end
 
-def save
-  @@all << self
-end
 
   def self.all
     @@all
-    save
   end
 
   def songs
@@ -25,7 +21,6 @@ end
   def add_song(name, genre)
     @songs << song
     song.artist = self
-    save
   end
 
   def genres                        
