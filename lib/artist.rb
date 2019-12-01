@@ -13,6 +13,7 @@ end
 
   def self.all
     @@all
+    save
   end
 
   def songs
