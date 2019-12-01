@@ -10,7 +10,7 @@ class Patient
     @appointments
   end
 
-  def add_song(song)
+  def new_appointment(song)
     @songs << song
   end
 
