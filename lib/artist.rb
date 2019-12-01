@@ -25,6 +25,7 @@ end
   def add_song(name, genre)
     @songs << song
     song.artist = self
+    save
   end
 
   def genres                        
