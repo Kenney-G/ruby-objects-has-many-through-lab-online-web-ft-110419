@@ -7,6 +7,10 @@ class Patient
     @appointments = []
   end
   
+  def self.all
+    @@all
+  end
+  
   def appointments
     @appointments
   end
