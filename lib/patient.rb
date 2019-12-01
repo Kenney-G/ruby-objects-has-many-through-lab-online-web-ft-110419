@@ -16,7 +16,7 @@ class Patient
   end
   
   def appointments                    
-    self.songs.collect do |song|
+    self.appointments.select do |appointment|
     song.artist
   end
   
