@@ -6,7 +6,7 @@ class Appointment
   def initialize(date, patient, doctor)
     @name = name
     self.genre = genre
-    genre.add_song(self)
+    @@all << self
   end
   
   def self.all
