@@ -15,10 +15,6 @@ class Patient
     @songs << song
   end
   
-  def appointments
-    @appointments
-  end
-
   def artists                    
     self.songs.collect do |song|
     song.artist
