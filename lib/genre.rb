@@ -12,7 +12,7 @@ class Genre
     @@all
   end
 
-  def new_song(song)
+  def new_song(song, artist)
     @songs << song
   end
 
