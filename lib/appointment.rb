@@ -1,4 +1,4 @@
-class Song
+class Appointment
   attr_accessor :genre, :artist, :name
 
   def initialize(name, genre)
