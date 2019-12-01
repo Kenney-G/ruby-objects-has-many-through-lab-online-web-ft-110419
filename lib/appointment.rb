@@ -3,7 +3,7 @@ class Appointment
 
 @@all = []
 
-  def initialize(name, genre)
+  def initialize(date, patient, doctor)
     @name = name
     self.genre = genre
     genre.add_song(self)
