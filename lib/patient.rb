@@ -15,7 +15,7 @@ class Patient
     @songs << song
   end
   
-  def artists                    
+  def appointments                    
     self.songs.collect do |song|
     song.artist
   end
