@@ -24,5 +24,6 @@ class Patient
   
   def doctors
     appoints.collect {|appointment| appointment.doctor}
+  end
   
   end
