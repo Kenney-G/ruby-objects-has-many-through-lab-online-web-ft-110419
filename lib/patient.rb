@@ -12,8 +12,8 @@ class Patient
     @@all
   end
   
-  def new_appointment(doctor)
-    @songs << song
+  def new_appointment(doctor, date)
+    
   end
   
   def appointments                    
