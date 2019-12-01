@@ -11,12 +11,12 @@ class Patient
     @@all
   end
   
-  def appointments
-    @appointments
-  end
-
   def new_appointment(doctor)
     @songs << song
+  end
+  
+  def appointments
+    @appointments
   end
 
   def artists                    
