@@ -12,7 +12,7 @@ class Doctor
     @@all
   end
 
-  def add_appointment(appointment)
+  def new_appointment(appointment)
     @appointments << appointment
   end
 
