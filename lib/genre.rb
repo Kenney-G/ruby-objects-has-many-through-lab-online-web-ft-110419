@@ -8,8 +8,8 @@ class Genre
     @@all << self
   end
   
-  def songs
-    @songs
+  def self.all
+    @@all
   end
 
   def add_song(song)
